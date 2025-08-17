@@ -1,20 +1,21 @@
 [
-    {
-        "image": "image1.webp",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    },
-    {
-        "image": "image2.webp",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    },
-    {
-        "image": "image3.webp",
-        "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
-    }
+  {
+    "image": "image2.webp",
+    "title": "Eco Bliss Bath – Automatisation des tests QA",
+    "text": "Automatisation des tests avec Cypress pour un site e-commerce de cosmétiques écoresponsables (API, smoke tests, faille XSS et scénarios critiques).",
+    "link": "https://github.com/manampy10/test_again"
+  },
+  {
+    "image": "image1.webp",
+    "title": "Booki",
+    "text": "Intégration d’un site web responsive de recherche d’hébergements et d’activités à partir d’une maquette Figma. Réalisé en HTML5 et CSS3, avec une attention portée à l’accessibilité et aux bonnes pratiques.",
+    "link": "https://github.com/manampy10/test_responsive"
+  },
+
+  {
+    "image": "image3.webp",
+    "title": "Kasa",
+    "text": "Développement du front-end en React à partir de maquettes Figma, avec composants dynamiques, routage React Router, intégration API et tests unitaires (coverage > 80%).",
+    "link": "https://github.com/manampy10/Carousel_hotel"
+  }
 ]
