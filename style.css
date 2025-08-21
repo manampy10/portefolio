@@ -43,7 +43,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #737373;
 }
 
 /* about */
@@ -125,7 +125,7 @@ footer a:hover {
   display: block;
   padding: 10px 20px;
   background-color: #a8a8a8;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -133,4 +133,13 @@ footer a:hover {
 
 .btn-cv:hover {
   background-color: #919694;
+}
+/* NAVBAR — contraste */
+.navbar {
+  background-color: #0b0b0b; /* utilisé par WAVE pour le calcul */
+}
+
+/* Quand on scrolle, garde aussi un fond très sombre */
+.navbarScroll.navbarDark {
+  background-color: #0b0b0b !important;
 }
