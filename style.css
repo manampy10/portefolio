@@ -58,7 +58,6 @@
 /* skills */
 .skillsText.card {
   height: 350px;
-  cursor: pointer;
 }
 .skillsText img {
   width: 100%;
@@ -80,7 +79,7 @@
   color: #008000;
 }
 .skillsText:hover {
-  border: 1px solid #008000;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 /* portfolio */
@@ -96,6 +95,29 @@
 }
 .contactColumn i {
   color: #198754;
+}
+
+.contactLink {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactLink:link,
+.contactLink:visited {
+  color: black;
+}
+
+.contactLink:hover {
+  color: black;
+}
+
+.contactLink h3,
+.contactLink p {
+  margin: 0;
+  text-align: center;
 }
 
 /* footer */
@@ -137,10 +159,10 @@ footer a:hover {
 
 /* NAVBAR — contraste */
 .navbar {
-  background-color: #0b0b0b; /* utilisé par WAVE pour le calcul */
+  background-color: #0b0b0b;
 }
 
-/* Quand on scrolle, garde aussi un fond très sombre */
+/* Quand on scrolle, garde le fond très sombre */
 .navbarScroll.navbarDark {
   background-color: #0b0b0b !important;
 }
