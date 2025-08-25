@@ -166,3 +166,20 @@ footer a:hover {
 .navbarScroll.navbarDark {
   background-color: #0b0b0b !important;
 }
+
+/*version mobile */
+@media (max-width: 768px) {
+  #about .col-lg-8 {
+    padding-top: 20px;
+  }
+
+  #about .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #about p {
+    margin-bottom: 15px;
+    text-align: start;
+  }
+}
